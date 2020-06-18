@@ -9,7 +9,7 @@ $ python3 -m http.server
 ```
 ## Authors
 
-* **Harold Mamitag** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Harold Mamitag**
 
 ## License
 
