@@ -16,8 +16,8 @@ $ python3 -m http.server
 * **Harold Mamitag**
 
 ## License
-This is free to use but the author waives the responsibility of any failure of the system (hardware or software)
-wherein the source code or piece of source code is used.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+
 ## Acknowledgments
 
 * [MDN Web docs](https://developer.mozilla.org/en-US/)
