@@ -1,3 +1,10 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #F2EFE9;
+	font-family: "Roboto";
+}
+
 @font-face {
 	font-family: "Roboto";
 	src: url("rob/Roboto-Regular.ttf");
@@ -6,11 +13,6 @@
 @font-face {
 	font-family: "Playfair Display Medium";
 	src: url("pfd/PlayfairDisplay-Medium.ttf");
-}
-
-body {
-	background-color: #F2EFE9;
-	font-family: "Roboto";
 }
 
 hr {
