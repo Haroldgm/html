@@ -1,0 +1,46 @@
+body {
+	max-width: 800px;
+	margin: 0 auto;
+	background-color: #F2EFE9;
+	font-family: "Roboto";
+}
+
+@font-face {
+	font-family: "Roboto";
+	src: url("rob/Roboto-Regular.ttf");
+}
+
+@font-face {
+	font-family: "Playfair Display Medium";
+	src: url("pfd/PlayfairDisplay-Medium.ttf");
+}
+
+hr {
+	border: none;
+	background: #D94E41;
+}
+
+p {
+	color: #0D0000;
+}
+
+a {
+	color: #0D0000;
+}
+
+code {
+	color: #0D0000;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	color: #0D0000;
+	font-family: "Playfair Display Medium";
+}
+
+ol {
+	color: #0D0000;
+}
+
+ul {
+	color: #D94E41;
+}
