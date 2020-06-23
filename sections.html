@@ -8,7 +8,7 @@
 		<title> HTML Document sections </title>
 		
 		<link rel="shortcut icon" href="static/images/acorn.png">
-		<link rel="stylesheet" href="static/css/css_file.css">
+		<link rel="stylesheet" href="static/css/css_file_center.css">
 		<script src="static/js/js_file.js" defer></script>
 	
 	</head>
@@ -19,31 +19,51 @@
 			<hr align="left" width="800" size="4">
 		</header>
 		<nav>
-			<ul>
-				<li><a href="#" title="Home">Home</a></li>
-				<li><a href="#" title="About">About</a></li>
-				<li><a href="#" title="Contacts">Contacts</a></li>
-			</ul>
+			<section>
+				<ul>
+					<li><a href="#" title="Home">Home</a></li>
+					<li><a href="#" title="About">About</a></li>
+					<li><a href="#" title="Contacts">Contacts</a></li>
+				</ul>
 
-			<form>
-				<input type="search" name="search" placeholder="Search the site">
-				<input type="submit" value="Go">
-			</form>
+				<form>
+					<input type="search" name="search" placeholder="Search the site">
+					<input type="submit" value="Go">
+				</form>
+			</section>
 		</nav>
 		<main>
 			<article>
 				<section>
 					<h3>HTML</h3>
 					<p>	Hypertext Markup Language is used for the structure of the webpage<br>
-						A typical webpage will include the following HTML sections in addition to the <a href="structure.html" target="_blank" title="HTML Document Structure">HTML Document Structure</a>
+						A typical webpage will include the following <strong>HTML sections</strong> in addition to the <a href="structure.html" target="_blank" title="HTML Document Structure">HTML Document Structure</a>
 					</p>
+					<h4>Semantic Wrappers</h4>
 					<ul>
 						<li><code>&lt;header&gt; &lt;/header&gt;</code></li>
+						<li><code>&lt;nav&gt; &lt;/nav&gt;</code></li>
+							<ul>
+								<li><code>&lt;section&gt; &lt;/section&gt;</code></li>
+							</ul>
 						<li><code>&lt;main&gt; &lt;/main&gt;</code></li>
-						<li><code>&lt;article&gt; &lt;/article&gt;</code></li>
-						<li><code>&lt;section&gt; &lt;/section&gt;</code></li>
-						<li><code>&lt;aside&gt; &lt;/aside&gt;</code></li>
+							<ul>
+								<li><code>&lt;article&gt; &lt;/article&gt;</code></li>
+									<ul>
+										<li><code>&lt;section&gt; &lt;/section&gt;</code></li>
+									</ul>
+								<li><code>&lt;aside&gt; &lt;/aside&gt;</code></li>
+							</ul>
 						<li><code>&lt;footer&gt; &lt;/footer&gt;</code></li>
+					</ul>
+					<a 	href="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Document_and_website_structure#HTML_layout_elements_in_more_detail" 
+						target="_blank" title="HTML layout elements in more detail">
+					HTML layout elements in more detail
+					</a>
+					<h4>Non-semantic Wrappers</h4>
+					<ul>
+						<li><code>&lt;span&gt; &lt;/span&gt;</code><p>In-line non-semantic element</p></li>
+						<li><code>&lt;div&gt; &lt;/div&gt;</code><p>Block-level non-semantic element</p></li>
 					</ul>
 				</section>
 				<section>
@@ -55,20 +75,20 @@
 					<p>	Javascript provides functionality and interactivity to the webpage</p>
 				</section>
 			</acticle>
-		</main>
-		<aside>
-		<!-- Related Articles to the main article can be put here -->
-		<h3>You may also like:</h3>
-		<ul>
-			<li><a href="#">Web Design</a></li>
-			<li><a href="#">Deployment of website on servers</a></li>
+			<aside>
+				<!-- Related Articles to the main article can be put here -->
+				<h3>You may also like:</h3>
+				<ul>
+					<li><a href="#">Web Design</a></li>
+					<li><a href="#">Deployment of website on servers</a></li>
 
-		</ul>
-		</aside>
+				</ul>
+			</aside>
+		</main>
 
 		<footer>
 		<p>©Copyright 5050 by Harold Mamitag. All rights reserved</p>
-		<a href="index.html" title="Link to index">Go back to HTML tag list</a>
+		<a href="introduction.html" title="Link to index">Go back to HTML tag list</a>
 		</footer>
 	</body>
 </html>
