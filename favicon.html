@@ -24,12 +24,34 @@
 	</head>
 
 	<body>
-		<h1>Favicon</h1>
-		<hr align="left" width="800" size="4">
-		<p>
-			Favicons are located on the browser tab just beside the title <br>
-			Right-click to view source.
-		</p>
-		<a href="introduction.html" title="Link to index">Go back to HTML tag list</a>
+		<header>
+			<h1>Favicon</h1>
+			<hr align="left" width="800" size="4">
+		</header>
+		<nav>
+			<ul>
+				<li><a href="link.html" title="Link list">Home</a>
+				</li>
+			</ul>
+		</nav>
+		<main>
+			<p>
+				Favicons are located on the browser tab just beside the title <br>
+			</p>
+			<pre><code>
+&lt;!-- basic favicon --&gt;
+&lt;link rel="shortcut icon" href="static\images\acorn.png"&gt;
+&lt;!-- third-generation iPad with high-resolution Retina display: --&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="144x144" href="static\images\acorn.png"&gt;
+&lt;!-- iPhone with high-resolution Retina display: --&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="114x114" href="static\images\acorn.png"&gt;
+&lt;!-- first- and second-generation iPad: --&gt;
+&lt;link rel="apple-touch-icon-precomposed" sizes="72x72" href="static\images\acorn.png"&gt;
+&lt;!-- non-Retina iPhone, iPod Touch, and Android 2.1+ devices: --&gt;
+&lt;link rel="apple-touch-icon-precomposed" href="static\images\acorn.png"&gt;
+			</code></pre>
+		</main>
+		<footer>
+		</footer>
   </body>
 </html>
