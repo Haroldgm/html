@@ -4,7 +4,7 @@
 
 This repository contains the lessons I learned during my refresher study of HTML
 
-## Running the html files on local web server
+## Host the html files on local web server
 
 Navigate to the checkout folder then run the python webserver
 
