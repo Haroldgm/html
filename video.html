@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="author" content="Harold Mamitag">
+		<meta name="description" content="">
+
+		<title>Embedding Video</title>
+		
+		<link rel="shortcut icon" href="static/images/acorn.png">
+		<link rel="stylesheet" href="static/css/css_file_center.css">
+		<script src="static/js/js_file.js" defer></script>
+		
+	</head>
+	<body>
+		<header>
+			<h1>Embedding Video</h1>
+			<hr align="left" width="800" size="4">
+		</header>
+		<nav>
+			<ul>
+				<li><a href="multimedia_embedding.html" title="Multimedia and Embedding">Home</a></li>
+			</ul>
+		</nav>
+		<main>
+			<article>
+				<section>
+					<ul>
+						<li><p>Single 
+								<a 	href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers" 
+									target="_blank" title="Container Format">container format
+								</a>
+							</p>
+						</li>
+							<video controls src="static/vid/pipi.mp4" width="400" muted poster="static/images/acorn.png" preload="auto">
+								<p>	This is a fallback content. Your browser does not support HTML5. <br>
+									Here is the direct <a href="static/vid/pipi.mp4">link</a>
+								</p>
+								<track kind="captions" src="static/vid/captions.vtt" srclang="en">
+							</video>
+<pre><code>
+&lt;video controls src="static/vid/pipi.mp4" width="400" muted poster="static/images/acorn.png" preload="auto"&gt;
+	&lt;p&gt;
+		This is a fallback content. Your browser does not support HTML5.
+	&lt;/p&gt;
+&lt;/video&gt;
+</code></pre>
+						<li><p>Multiple 
+								<a 	href="https://developer.mozilla.org/en-US/docs/Web/Media/Formats/Containers" 
+									target="_blank" title="Container Format">container format
+								</a>
+							</p>
+						</li>
+							<video controls width="400" muted poster="static/images/acorn.png" preload="auto">
+								<source src="static/vid/pipi.mp4" type="video/mp4">
+								<source src="static/vid/pipi.webm" type="video/webm">
+								<track kind="captions" src="static/vid/captions.vtt" srclang="en">
+							</video>
+					</ul>
+<pre><code>
+&lt;video controls width="400" muted poster="static/images/acorn.png" preload="auto"&gt;
+	&lt;source src="static/vid/pipi.mp4" type="video/mp4"&gt;
+	&lt;source src="static/vid/pipi.webm" type="video/webm"&gt;
+	&lt;p&gt;
+		This is a fallback content. Your browser does not support HTML5.
+	&lt;/p&gt;
+&lt;/video&gt;
+</code></pre>
+
+				</section>
+			</article>
+			<aside>
+			</aside>
+		</main>
+		<footer>
+		</footer>
+	</body>
+</html>
